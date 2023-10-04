@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Fredoka', sans-serif;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FFB7E4;
+    background: linear-gradient(180deg, #ffb7e466 25.24%, #f96abbc9 66.21%);
+}
+.main{
+    width: 350px;
+    height: 500px;
+    background:white;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 9px 8px 50px 0px #220A40;
+}
+#chk{
+    display: none;
+}
+.signup{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+label{
+    color: #000;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+input{
+    width: 60%;
+    height: 35px;
+    background: #A3E3FF8A;
+    opacity: 0.8;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+button{
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #FFB7E4;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+button:hover{
+    color: #220A40;
+    background: #a3e3ff8a;
+}
+.login{
+    height: 460px;
+    background-color: #f1f1f1;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: .8s ease-in-out;
+}
+.login label{
+    color: #573b8a;
+}
+
+#chk:checked ~ .login{
+    transform: translateY(-500px);
+}
+#chk:checked ~ .login label{
+    transform: scale(1);
+}
+#chk:checked ~ .signup label{
+    transform: scale(.6);
+}
+.senha{
+    text-decoration: none;
+    color: #220A40;;
+}
+.senha:hover{
+    text-decoration: none;
+    color: #00278b8a;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.entrar{
+    font-size: 18pt;
+    color: #ffffff;
+    background-color: #FFB7E4;
+    padding: 7px;
+    border-radius: 5px;
+    width: 50px;
+}
