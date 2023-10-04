@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FFB7E4;
+    background: linear-gradient(180deg, #ffb7e466 25.24%, #f96abbc9 66.21%);
+}
+.titulo{
+    font-size: 3em;
+    font-weight: 800;
+    color: #310962;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
