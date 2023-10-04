@@ -51,6 +51,9 @@ a:hover{
     color: #220A40;
     font-size: 1.4em;
 }
+.text_link:hover{
+    color: #940050;
+}
 .carousel{
     width: 75vw;
     margin-top: 20px;
