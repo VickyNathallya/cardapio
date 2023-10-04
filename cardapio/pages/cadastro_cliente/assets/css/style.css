@@ -8,6 +8,8 @@ body{
     background: linear-gradient(180deg, #ffb7e466 25.24%, #f96abbc9 66.21%);
 }
 .titulo{
+    margin-top: 20px;
+    margin-bottom: 25px;
     font-size: 3em;
     font-weight: 800;
     color: #310962;
@@ -21,4 +23,5 @@ body{
     background-color: white;
     border-radius: 10px;
     padding: 15px;
+    box-shadow: 9px 8px 50px 0px #220A40;
 }
