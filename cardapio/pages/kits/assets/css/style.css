@@ -1,8 +1,6 @@
 body{
     background-color: #FFB7E4;
     font-family: 'Fredoka', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 a{
     text-decoration: none;
@@ -45,6 +43,9 @@ a:hover{
     height: 100px;
     background-color: #ff83c9;
 }
+.capa{
+    width: 86vw;
+}
 .card-deck{
     width: 86vw;
 }
@@ -55,19 +56,6 @@ a:hover{
     justify-content: center;
     padding: 5px;
 }
-footer{
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-.carrinho{
-    color: #220A40;
-    font-size: 1.3em;
-}
 .card-title{
     font-size: 22pt;
-}
-.carrinho:hover{
-    color: #940050;
-    text-decoration: none;
 }
