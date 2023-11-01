@@ -78,4 +78,9 @@ a:hover{
     justify-content: center;
     padding: 5px;
 }
-
+.transition{
+    transition: .7s;
+}
+.transition:hover{
+    transform: scale(1.03, 1.03);
+}
