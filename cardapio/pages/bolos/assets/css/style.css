@@ -67,3 +67,22 @@ a:hover{
     color: #940050;
     text-decoration: none;
 }
+.rodape h4{
+    font-size: medium;
+}
+.transition{
+    transition: .7s;
+}
+.transition:hover{
+    transform: scale(1.03, 1.03);
+}
+p{
+    font-size: 1.2em;
+}
+h3{
+    font-size: 0.8em;
+    opacity: 0.9;
+}
+h2{
+    font-size: 1.5em;
+}
