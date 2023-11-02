@@ -19,6 +19,9 @@ a:hover{
     align-items: center;
     flex-direction: row;
 }
+.capa{
+    width: 86vw;
+}
 .cabec h1{
     color: white;
 }
